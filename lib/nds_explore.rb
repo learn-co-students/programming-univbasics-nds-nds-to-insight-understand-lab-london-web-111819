@@ -12,6 +12,8 @@ end
 
 def print_first_directors_movie_titles
 
+  #pp directors_database
+
   i = 0
   number_of_movies = directors_database[0][:movies].length
   list_of_directors_movies = ""
