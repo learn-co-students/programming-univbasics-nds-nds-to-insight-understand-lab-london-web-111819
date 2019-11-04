@@ -21,7 +21,6 @@ def print_first_directors_movie_titles
   until i == number_of_movies do
     list_of_directors_movies << directors_database[0][:movies][i][:title]
     list_of_directors_movies << "\n"
-    #{}"#{list_of_directors_movies}" + "#{directors_database[0][:movies][i][:title]}" +
     i += 1
   end
 
